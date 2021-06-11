@@ -1,0 +1,80 @@
+.top{
+    background:             #00A66A;
+    color:                  white;
+    padding:                10px 0;
+    font-size:              20px;
+}
+.top .container{
+    display:                flex;
+    justify-content:        space-between;
+    align-items:            center;
+}
+.top nav ul{
+    display:                flex;
+    padding:                0;
+    margin:                 0;
+}
+.top nav li{
+    list-style:             none;
+}
+.top nav a,
+.top .lang a{
+    color:                  white;
+    text-decoration:        none;
+    transition:             .2s ease;
+}
+.top nav a{
+    margin:                 0 35px;
+}
+.top .lang a{
+    padding:                0 10px;
+}
+.top nav a:hover,
+.top .lang a:hover{
+    opacity:                0.5;
+}
+.top .lang span{
+    opacity:                0.5;
+}
+.top .right_box{
+    display:                flex;
+    align-items:            center;
+}
+.top .right_box .lang{
+    display:                flex;
+}
+.top .right_box .burger_menu{
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-evenly;
+    padding-left:           33px;
+    height:                 30px;
+}
+.top .right_box .burger_menu span{
+    width:                  22px;
+    height:                 2px;
+    background:             white;
+    opacity:                1;
+}
+.main_screen{
+    height: 100vh;
+
+    background-image:       url("../images/logo_big.png"),
+    url("../images/logo_big_bg.png"),
+    url("../images/bg_1_bottom.png"),
+    url("../images/bg_1.png");
+
+    background-position:    center,
+    center,
+    bottom,
+    center;
+
+    background-repeat:      no-repeat;
+
+    background-size:        auto,
+    auto,
+    contain,
+    cover;
+
+    background-attachment:  local;
+}
